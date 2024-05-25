@@ -1,0 +1,216 @@
+body{
+    background-color: black;
+}
+
+h2{
+    color: white;
+    margin-left: 100px;
+}
+
+img{
+    background-position: top right; 
+}
+
+.top{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 94% 4% 2%;
+}
+
+.a{
+    background-color: rgb(88, 88, 88);
+    height: 250px;
+    width: 60%;
+    margin-left: 110px;
+    display: flex;
+}
+
+.b{
+    background-color: rgb(88, 88, 88);
+    height: 250px;
+    width: 60%;
+    margin-left: 110px;
+    display: flex;
+}
+
+.c{
+    background-color: rgb(88, 88, 88);
+    height: 250px;
+    width: 60%;
+    margin-left: 110px;
+    display: flex;
+}
+
+
+.items{
+    color:white;
+    
+}
+
+.items .a img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 75%;
+}
+
+.items .b img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 75%;
+}
+
+.items .c img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 75%;
+}
+
+.a button{
+    margin-top: 25px;
+    background-color:rgb(109, 12, 116) ;
+    color: white;
+}
+
+.b button{
+    margin-top: 25px;
+    background-color:rgb(109, 12, 116) ;
+    color: white;
+}
+
+.c button{
+    margin-top: 25px;
+    background-color:rgb(109, 12, 116) ;
+    color: white;
+}
+
+.z{
+    margin-top: 25px;
+    
+    font-size: 125%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.b3{
+    margin-top: 25px;
+    
+    font-size: 125%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.c3{
+    margin-top: 25px;
+    
+    font-size: 125%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.xx{
+    margin-top: 25px;
+    
+    font-size: 125%;
+}
+
+.b4{
+    margin-top: 25px;
+    
+    font-size: 125%;
+}
+
+.c4{
+    margin-top: 25px;
+    
+    font-size: 125%;
+}
+
+.xy{
+    margin-top: 25px;
+    
+    font-size: 125%;
+}
+
+.b5{
+    margin-top: 25px;
+    
+    font-size: 125%;
+}
+
+.c5{
+    margin-top: 25px;
+    
+    font-size: 125%;
+}
+
+.xz{
+    margin-top: 25px;
+    
+    font-size: 125%;
+}
+
+.b6{
+    margin-top: 25px;
+    
+    font-size: 125%;
+}
+
+.c6{
+    margin-top: 25px;
+    
+    font-size: 125%;
+}
+
+.p{
+    color: white;
+    height: 700px;
+    position: fixed;
+    flex-direction: column;
+    width: 40px;
+}
+
+.q{
+    margin-top: 40px;
+}
+
+.r{
+    margin-top: 40px;
+}
+
+.s{
+    margin-top: 40px;
+}
+
+.t{
+    margin-top: 40px;
+}
+
+.u{
+    margin-top: 240px;
+}
+
+.q button{
+    background-color: black;
+}
+
+.r button{
+    background-color: black;
+}
+
+.s button{
+    background-color: black;
+}
+
+.t button{
+    background-color: black;
+}
+
+.u button{
+    background-color: black;
+}
+
+.top button{
+    background-color: black;
+}
