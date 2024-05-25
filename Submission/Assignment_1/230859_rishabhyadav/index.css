@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: #171623;
+    color: #fff;
+    height:40px;
+    padding: 0.3em ;
+    text-align: right
+}
+.menu i{
+    background-color: rgb(12, 9, 43);
+    font-size: 28px;
+    border-radius:100% ;
+    padding: 0.1rem;
+    
+}
+.menu i:hover{
+    background-color: rgb(44, 35, 142);
+    font-size: 30px;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: #171623;
+    width:50px;
+    height: 100%;
+    padding: 0.5rem 0.5rem;
+}
+.home i{
+    color: #fff;
+   font-size:28px;
+   margin-bottom: 10px;
+   border-radius:100% ;
+   width: 40px;
+   padding: 0.3rem;
+}
+.home i:hover{
+    background-color: rgb(44, 35, 142);
+    font-size: 30px;
+}
+.products i{
+    color: #fff;
+    font-size:28px;
+    margin-bottom: 10px;
+    border-radius:100% ;
+    width: 40px;
+    padding: 0.3rem;
+ }
+ .products i:hover{
+    background-color: rgb(44, 35, 142);
+    font-size: 30px;
+}
+ .cart i{
+    color: #fff;
+    font-size:28px;
+    margin-bottom: 10px;
+    border-radius:100% ;
+    width: 40px;
+    padding: 0.3rem;
+ }
+ .cart i:hover{
+    background-color: rgb(44, 35, 142);
+    font-size: 30px;
+}
+ .watchlist i{
+    color: #fff;
+    font-size:28px;
+    margin-bottom: 10px;
+    border-radius:100% ;
+    width: 40px;
+    padding: 0.3rem;
+ }
+ .watchlist i:hover{
+    background-color: rgb(44, 35, 142);
+    font-size: 30px;
+}
+ .user i{
+    color: #fff;
+    font-size:28px;
+    margin-top: 380px;
+    margin-bottom: 10px;
+    border-radius:100% ;
+    width: 40px;
+    padding: 0.3rem;
+ }
+ .user i:hover{
+    background-color: rgb(44, 35, 142);
+    font-size: 30px;
+}
+ .logout i{
+    color: #fff;
+    font-size:28px;
+    margin-bottom: 10px;
+    border-radius:100% ;
+    width: 40px;
+    padding: 0.3rem;
+ }
+ .logout i:hover{
+    background-color: rgb(44, 35, 142);
+    font-size: 30px;
+}
+ main{
+    height:750px;
+    background-color: rgb(37, 37, 45);
+   
+ }
+ .content{
+    margin-left: 150px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    padding-top:1rem;
+ }
+ .card{
+    background-color: #171623;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    width: 80%;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display:flex;
+    
+    
+}
+.s22{
+    margin-top:0;
+    width: 250px;
+    height:100%;
+    border-radius: 10px;
+
+    
+
+    
+}
+.mavicepro{
+    margin-top:0;
+    width:250px;
+    height:100%;
+    border-radius: 10px;
+    
+}
+.buds{
+    margin-top:0;
+    width: 250px;
+    height:100%;
+    border-radius: 10px;  
+}
+
+
+
+.button-33 {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #b1e8a1;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .button-33:hover {
+    background-color: #789b87;
+    
+    color:#b1e8a1;
+    transform: translateY(-7px);
+  }
+  
+  .button-33:active {
+    transform: translateY(-1px);
+  }
+
+.cardcontent{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.price{
+    width: 100px;
+}
+.but{
+    margin-top: 30px;
+}
