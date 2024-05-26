@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: #161414;
+    color: #fff;
+}
+
+.sidebar{
+    background-color: black;
+    display: inline-flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.top img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 600px;
+}
+
+.bottom img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    column-gap: 50px;
+}
+
+.product-template{
+    background-color: #141A32;
+    position: relative;
+    height: 410px;
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+.image{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 20px 20px 0 0;
+}
+
+.like{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    right: 0;
+    margin-right: 25px;
+    margin-top: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.name{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+.price{
+    background-color: #ff0062;
+    padding: 6px;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 285px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+}
+
+.cart{
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 0;
+    cursor: pointer;
+    margin-left: 160px;
+}
+
+.brand{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.stars{
+    margin-left: 105.5px;
+}
+
+.enlarge{
+    background-color: #141A32;
+    width: 700px;
+    height: 920px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.bigimage{
+    width: 660px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px 20px 0 0;
+    height: 600px;
+    position: relative;
+}
+
+.name1{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.price1{
+    color: #ff0062;
+    margin-bottom: 10px;
+}
+
+.details{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.brand1{
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 650px;
+    margin-right: 100px;
+}
+
+.shop{
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 650px;
+    margin-right: 195px;
+}
+
+.stars1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 680px;
+    margin-right: 100px;
+}
+
+.cart1{
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 710px;
+    margin-right: 195px;
+}
+
+.quantity{
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 710px;
+    margin-right: 110px;
+}
+
+.box{
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 740px;
+    margin-right: 195px;
+}
+
+.stock{
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 740px;
+    margin-right: 120px;
+}
+
+.cart2{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 800px;
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+.left{
+    height: 30px;
+    width: 30px;
+    margin-top: 470px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.right{
+    height: 30px;
+    width: 30px;
+    margin-top: 470px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+

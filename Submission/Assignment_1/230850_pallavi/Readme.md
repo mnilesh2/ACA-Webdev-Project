@@ -1,0 +1,1 @@
+This webpage displays a list of products along with their descriptions. I have incorporated icons by downloading them and using the <img> tag. I used the <a> tag to link to a bonus webpage. To style the elements I used CSS classes. I kept my display as 'flex' and used 'grid' of product templates, few display properties to place elements in specific positions.
