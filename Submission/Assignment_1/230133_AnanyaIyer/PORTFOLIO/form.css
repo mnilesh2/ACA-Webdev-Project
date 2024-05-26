@@ -1,0 +1,25 @@
+body{
+    background-color: #18141a;
+
+}
+#login{
+    margin-top:20vh;
+    margin-left: 60vb;
+    width: 60vb;
+    height:60vh;
+    background-color: #ffffff66;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+}
+#content{
+    margin-top: 10vh;
+    margin-left: 5vb;
+    margin-right: 5vb;
+    font-size: x-large;
+    color:azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
