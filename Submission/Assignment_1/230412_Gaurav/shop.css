@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content {
+    display: flex;
+    
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+.navbar {
+    background-color: black;
+    width: 70px;
+    height: 100vh;
+    position: fixed;
+}
+.icons {
+    width: 100%;
+    padding-left: 8px;
+    padding-top: 40px;
+}
+.icon1 {
+    padding-left: 3px;
+    height: 50px;
+}
+.icon1 a i {
+    color: #f6f7f8;
+}
+.icon1 a:hover i {
+    color: rgb(218, 41, 71);
+}
+.icons2 {
+    width: 100%;
+    padding-left: 8px;
+    position: absolute;
+    bottom: 30px;
+   
+}
+.icon2{
+   padding-bottom: 20px;
+   
+}
+.icon2 i{
+    cursor: pointer;
+}
+.c1 {
+    width: 26%;
+   color: azure;
+    min-height: 100vh;
+    margin-left: 70px;
+    background-color: #141414;
+    overflow-y: auto;
+    height: 100vh;
+}
+.r1 {
+    width: 69%;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+.grid-container {
+   display: flex;
+   flex-direction: row;
+   flex: 1;
+    
+    padding: 15px;
+    width: 95%;
+    }
+    
+.no {
+    color: #f6f7f8;
+    text-align: center;
+    padding: 10px;
+    
+    border-radius: 5px;
+    margin: 10px;
+    }
+   
+.grid-item {
+   
+        background-color: #0D1F2D;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        font-size: 1.4rem;
+        height: 310px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: calc((100% - 50px) / 3); 
+        margin-right: 10px; /* Adjust margin between grid items */
+    
+    
+    }
+.a1 {
+        height: 60%;
+        width: 100%;
+       position: relative;
+       
+    }
+.m1 {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+.d1 {
+        height: 40%;
+        width: 100%;
+        padding: 10px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+.info {
+        min-height: 55%;
+    }
+.info2 {
+        
+        max-width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+    }
+.info2 h6{
+        font-size: 1.15rem;
+    }
+.info h4 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+.read {
+        height: 35px;
+        width: 120px;
+        font-size: 0.9rem;
+        display: flex;
+        border-radius: 5px;
+        background-color: #FF0080;
+        color: white;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: auto;
+         
+           
+    }
+.icon3 {
+        background-color: #f6f7f8;
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    
+.icon3 i {
+        font-size: 18px;
+        color: black;
+        cursor: pointer;
+    }
+    
+.icon4{
+   
+   
+    
+  opacity: 0.9; 
+    margin-bottom: 108px;
+    color: #f6f7f8;
+}
+.icon4 i{
+    cursor: pointer;
+}
+
+.anu{
+   
+    background-color: #f6f7f8;
+    border-radius: 20px;
+    color: #FF0080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    position: absolute;
+    bottom: 10px;
+  
+    padding: 5px; 
+    
+   
+
+}
+.a1 {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-end; /* Align elements to the right */
+    padding: 10px; /* Optional: adds padding around the container */
+}
+.a1 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.filter-section {
+   background-color: #0D1F2D;
+ min-height: 100%;
+   margin-left: 70px;
+   margin-top: 20px;
+   border-radius: 3px;
+}
+
+.filter-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #f6f7f8;
+}
+
+.filter-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #f6f7f8;
+}
+
+.filter-group input {
+    margin-right: 10px;
+   
+}
+/* Custom scrollbar for .c1 */
+.c1::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.c1::-webkit-scrollbar-track {
+    background: #1e2838; /* Color of the track */
+}
+
+.c1::-webkit-scrollbar-thumb {
+    background-color: #2e3540; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Roundness of the scrollbar thumb */
+    border: 2px solid #2c2c2c;
+  
+}
+
+.c1::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+.r1::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.r1::-webkit-scrollbar-track {
+    background: #1e2838; /* Color of the track */
+}
+
+.r1::-webkit-scrollbar-thumb {
+    background-color: #2e3540; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Roundness of the scrollbar thumb */
+    border: 2px solid #2c2c2c;
+  
+}
+
+.r1::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+.f1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   
+
+}
+.f2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+    background-color: #202938;
+    padding-left: 5px;
+    width: 76%;
+    border-radius: 8px;
+    
+
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        width: 60px;
+    }
+
+    .c1 {
+        width: 30%;
+    }
+
+    .r1 {
+        width: 70%;
+    }
+
+    .grid-item {
+        width: calc((100% - 30px) / 2); /* 2 items per row */
+    }
+
+    .a1 img {
+        border-radius: 5px;
+    }
+
+    .filter-group label {
+        font-size: 1rem;
+    }
+}
