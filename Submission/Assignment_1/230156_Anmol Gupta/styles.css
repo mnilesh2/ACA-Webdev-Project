@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+    display: flex;
+}
+.icon-bar {
+    width: 50px;
+    background-color:#212529;
+    padding:16px;
+    display: block;
+    color: white;
+    font-size: 25px;
+}
+#user{
+    position: relative;
+    top: 80%;
+    
+}
+#like::before{
+    position: absolute;
+    left:90%;
+    top:5%;
+    color: rgb(191, 177, 179);
+}
+#like{
+    position: absolute;
+    left:90%;
+    top:5%;
+    color:deeppink;
+
+}
+#like:hover{
+    color: deeppink;
+}
+.icon{
+    margin-left: 30%;
+    display: block;
+    font-size: 20px;
+}    
+
+.content{
+    background-color: black;
+    display:flex;
+    color: white;
+    margin-left: 0px;
+}
+.option{
+    align-content: center;
+    color: white;
+    background-color: #212529;
+    width: 15%;
+    margin-left: 5%;
+    padding-right: 6px;
+}
+button{
+    border-radius: 10px;
+    color: white;
+    background-color: #343A40;
+    display: block;
+    padding-left: 10%;
+    width:200px;
+    height:48px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.filter{
+    align-content: center;
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    row-gap: 20px;
+}
+h3{
+    text-align: center;
+}
+.products{
+    background-color:#212529 ;
+    margin-left: 1%;
+}
+img{
+    width: 100%;
+}    
+.btn2{
+    background-color: deeppink;
+    color: white;
+    width: fit-content;
+    padding-left: 1px;
+    font-size: small;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+h4{
+    color: deeppink;
+}
+pre{
+    font-weight:800px;
+    font-size: 15px;  
+}
+.image{
+    background-color: #001233;
+    width:30%;
+    height: fit-content;
+    max-width: 25%;
+    margin-bottom: 20px;
+    margin-left: 55px;
+    text-align: start;
+    position: relative;
+}
+.image .btn3{
+    position: absolute;
+    left:85%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(234, 193, 199);
+    color: deeppink;
+    width: fit-content;
+    padding-left: 1px;
+    font-size: small;
+    font-weight: 600;
+    height: 30px;
+    opacity:50%;
+}
+.images{
+    display: flex;   
+}
+span{
+    position:absolute;
+    left: 75%;
+}
+#shoppingcart{
+    background-color: white;
+    color: white;
+    width: 50%;
+    
+    border-radius: 50%;
+}
+@media screen and (max-width: 1200px){
+    button{
+        width: 150px;
+    }
+    .option{
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        width: 700px;
+    }
+    .image .btn3{
+        position: absolute;
+        left:80%;
+        top:48%;
+    }
+}
+    
+    
