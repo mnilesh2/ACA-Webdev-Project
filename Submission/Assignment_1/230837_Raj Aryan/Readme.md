@@ -1,1 +1,2 @@
+
 It is a simple web page that displays a list of products with their images, descriptions, and prices. I have used the divs ,classes and id to access all my elements. Also have used display property to allign images and content in specify direction
