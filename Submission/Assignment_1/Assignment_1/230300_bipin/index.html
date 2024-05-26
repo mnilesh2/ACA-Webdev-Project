@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="icons">
+      <ul>
+        <li><i class="fa-solid fa-house"></i></li>
+        <li><i class="fa-regular fa-clipboard"></i></li>
+        <li><i class="fa-solid fa-cart-shopping"></i></li>
+        <li><i class="fa-solid fa-heart"></i></li>
+      </ul>
+    </div>
+    <div class="icons2">
+      <ul>
+        <li style="rotate: 270deg"><i class="fa-solid fa-power-off"></i></li>
+        <li><i class="fa-regular fa-user"></i></li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="content">
+        <h3 class="firstheading">Filter by Categories</h3>
+        <ul>
+          <li><input type="checkbox" /> Phone</li>
+          <li><input type="checkbox" /> Clothes</li>
+          <li><input type="checkbox" /> Laptops</li>
+          <li><input type="checkbox" /> Earpods</li>
+          <li><input type="checkbox" /> Drones</li>
+          <li><input type="checkbox" /> Shoes</li>
+          <li><input type="checkbox" /> Tablets</li>
+          <li><input type="checkbox" /> Cameras</li>
+        </ul>
+        <h3 class="secondheading">Filter by Brands</h3>
+        <ul>
+          <li><input type="radio" name="brand" /> Apple</li>
+          <li><input type="radio" name="brand" /> Dell</li>
+          <li><input type="radio" name="brand" /> Samsung</li>
+        </ul>
+      </div>
+      <main class="products">
+        <h2>13 Products</h2>
+        <div class="product-grid">
+          <div class="item">
+            <div class="image">
+              <img src="img/mackbook.img.jpg" alt="MacBook Pro" />
+              <i class="fa-regular fa-heart"></i>
+              <button class="brand">Apple</button>
+            </div>
+            <div class="item-info">
+              <div class="item-header">
+                <h3>MacBook Pro</h3>
+                <span class="price">$890.00</span>
+              </div>
+              <p class="description">nice product...</p>
+              <div class="item-footer">
+                <button class="btn">Read More ➜</button>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="img/dell.img.webp" alt="Dell Laptop" />
+              <i class="fa-regular fa-heart"></i>
+              <button class="brand">Dell</button>
+            </div>
+            <div class="item-info">
+              <div class="item-header">
+                <h3>Dell Inspiron touch</h3>
+                <span class="price">$459.00</span>
+              </div>
+              <p class="description">Best in price laptops...</p>
+              <div class="item-footer">
+                <button class="btn">Read More ➜</button>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="img/iphone 15.img.jpg" alt="Iphone 15" />
+              <i class="fa-regular fa-heart"></i>
+              <button class="brand">Apple</button>
+            </div>
+            <div class="item-info">
+              <div class="item-header">
+                <h3>Iphone 15</h3>
+                <span class="price">$456.00</span>
+              </div>
+              <p class="description">Best value for money...</p>
+              <div class="item-footer">
+                <button class="btn">Read More ➜</button>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="image">
+              <img src="img/ipad.img.webp" alt="Ipad" />
+              <i class="fa-regular fa-heart"></i>
+              <button class="brand">Apple</button>
+            </div>
+            <div class="item-info">
+              <div class="item-header">
+                <h3>Ipad</h3>
+                <span class="price">$543.00</span>
+              </div>
+              <p class="description">Best tablets ever made...</p>
+              <div class="item-footer">
+                <button class="btn">Read More ➜</button>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="image">
+              <img src="img/earpods.img.webp" alt="Earpods" />
+              <i class="fa-regular fa-heart"></i>
+              <button class="brand">Samsung</button>
+            </div>
+            <div class="item-info">
+              <div class="item-header">
+                <h3>Earpods</h3>
+                <span class="price">$35.00</span>
+              </div>
+              <p class="description">The best earpods...</p>
+              <div class="item-footer">
+                <button class="btn">Read More ➜</button>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="image">
+              <img src="img/drones.img.jpg" alt="Drones" />
+              <i class="fa-regular fa-heart"></i>
+              <button class="brand">Drone</button>
+            </div>
+            <div class="item-info">
+              <div class="item-header">
+                <h3>Drones</h3>
+                <span class="price">$23.00</span>
+              </div>
+              <p class="description">The best drone ever...</p>
+              <div class="item-footer">
+                <button class="btn">Read More ➜</button>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

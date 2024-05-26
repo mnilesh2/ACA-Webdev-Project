@@ -1,0 +1,5 @@
+# I have made first webpage of the assignment.For this firstly  I have made the unordered list of the different icons which I have taken from font-awesome website and then i have use the css property like padding,margin,hover etc to style it.
+# Then I have made the display flex for the class container to make the layouts horizontal or vertical.And then added the content by making the list and given them proper margin and padding to give proper space between each element of content.
+# I have used the divs,h3 and different classes to access them while styling in css.
+# Then I have made the different items.I have made the button and also used a hover property and set a pointer so that it looks like a clickable button.I have adjusted the size of the images.
+# Atlast I have used media queries to make webpage responsive according the size of screen.
