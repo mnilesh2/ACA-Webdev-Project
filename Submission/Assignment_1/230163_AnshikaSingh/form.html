@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styleForm.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <h2>Login Form</h2>
+        <form action="/action.php">
+            <input type="text" placeholder="Name" class="placeholder"> <br> <br>
+            <input type="email" placeholder="EmailId" class="placeholder"> <br> <br>
+            <input type="password" placeholder="Password" class="placeholder"> <br> <br>
+            <input type="number" placeholder="Mobile_No" class="placeholder"> <br> <br>
+            <h3><u>select your Gender</u></h3>
+            <input type="radio" value="Male" name="gender" class="gender">Male       <!--for radiobuttons -->
+            <input type="radio" value="Female" name="gender" class="gender">Female    
+            <input type="radio" value="Other" name="gender" class="gender">Other   <br> <br>
+        
+        <h3><u>Choose Languages</u></h3>                                  <!--for multiple selections-->
+        <label for="English">
+         <input type="checkbox" value="English" class="Languages" id="101">English
+        </label>
+        <label for="Hindi">
+         <input type="checkbox" value="Hindi" class="Languages" id="102">Hindi
+        </label>
+        <label for="Urdu">
+         <input type="checkbox" value="Urdu" class="Languages" id="103">Urdu
+        </label>
+        <label for="French">
+         <input type="checkbox" value="French" class="Languages" id="104">French
+        </label>   <br> <br> 
+
+  <!--for dropdown options-->
+
+  <h3><u>select your city</u></h3>
+  <select name="city" class="city">
+      <option class="city" value="pune">pune</option>
+      <option class="city" value="mumbai">mumbai</option>
+      <option class="city" value="kanpur">kanpur</option>
+      <option class="city" value="delhi">delhi</option>
+      <option class="city" value="bangalore">bangalore</option>
+      <option class="city" value="lucknow">lucknow</option>
+      <option class="city" value="madras">madras</option>
+  </select>    <br> <br> <br> <br> 
+  <input type="text" placeholder="Enter your Address" class="placeholder"> <br> <br>
+
+  <!--use of text area for feedbacks-->
+  <textarea type="feedback" id="101" placeholder="enter your feedback" class="placeholder"></textarea>
+  <br> <br> <br>
+  <button id="submit">Submit</button>
+
+
+</form>
+</main>
+<footer></footer>
+</body>
+</html>

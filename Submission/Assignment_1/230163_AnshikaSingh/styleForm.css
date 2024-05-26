@@ -1,0 +1,27 @@
+body{ background-color:darkslateblue }
+
+*{ text-align: center; }       /* here * is a universal selector*/
+
+.city{ color: black; 
+    background-color:bisque; 
+    border: 3px,solid,black;}
+
+u{ color:fuchsia;
+   font-weight: bolder ;}
+
+h2{ color:lightcyan; }
+
+#submit{ color: black;}
+
+#submit:hover{ background-color: aqua;}
+
+.placeholder{ background-color:bisque; 
+    border: 3px,solid,black;}
+
+.gender{ color: white; 
+    border: 3px,solid,black; }
+
+.languages{ color: white;
+    border: 3px,solid,black;}
+
+
