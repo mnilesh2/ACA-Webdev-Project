@@ -1,0 +1,106 @@
+body{ background-color: rgb(25, 16, 16); }
+#navbar{
+    background-color:rgb(100, 70, 70);
+    height: 70px; 
+    border: 3px,solid,rgb(99, 94, 103);
+    display: flex;              /*to make navbar a flexbox*/
+    justify-content: space-around; }
+
+.navbarText:hover{ color:darksalmon ; }     /*pseudo selectors*/
+
+#logo{ width:180px;
+       height: 70px; }
+
+#search{ position:relative;        /*relative to its own position*/
+         right:80px; }
+
+#main{ display: flex ;
+       justify-content:flex-start; }
+
+#firstdiv{ background-color: black;
+           height: 1200px; width: 250px;
+           border: 2px,solid,cadetblue; }
+
+#seconddiv{ background-color: rgb(25, 16, 16); 
+            height:1200px; width: 1200px; }
+
+.containers{
+    height:225px; width: 900px; background-color:rgb(62, 75, 75);
+    border: 2px,solid,cadetblue;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left:150px;
+    top:30px; }
+
+h4{ color: white;
+    position: relative; left:145px; }
+
+h2{
+    font-style:italic;
+    font-weight: lighter;
+    color: red;
+    position: relative;
+    left:10px; }
+
+ul{ color: whitesmoke; }  
+
+.list_Item:hover{ color:cyan; }
+
+.LaptopImage{
+    height: 200px; width: 300px; border: 2px,solid,red; background-color:black;
+    position: relative;
+    top: 10px; left: 5px;
+    transition: all;                   /*for makin transitions*/
+    transition-duration:0.5s;
+    transition-timing-function: ease-in; }
+
+.LaptopImage:hover{
+    transform: scale(1.1);
+    z-index: 1; }                /*to pop up the image upside*/
+
+#one{ background-image: url(Macbook.jpg);
+      background-size: cover; }
+
+#three{ background-image: url(dell_new.avif);
+      background-size: cover;}
+
+#five{ background-image: url(samsung.jpg);
+        background-size: cover;}
+
+#seven{ background-image: url(asus.jpg);
+      background-size: cover;}
+
+.details{
+    background-color:black ; height: 200px; width: 560px; border: 2px,solid,magenta;
+    position: relative;
+    top: 10px;
+    right:20px; } 
+
+button{
+    background-color:rgb(189, 75, 94); color: bisque;
+    position: relative;
+    left: 20px; }
+
+button:hover{ background-color:yellowgreen; }
+
+h3{ color: aliceblue;
+    position: relative; left: 10px; }  
+
+p{ color: white; position: relative; left: 30px; }
+
+a{ color: aliceblue; } 
+
+a:hover{ color:aqua;}
+
+.anchors{ text-decoration: none;}
+
+h5{ color: white;
+    font-weight: bolder;
+    position: absolute;
+    right:30px; bottom: 25px;
+    font-size: large;}
+
+.abouts{ text-decoration: underline;}
+
+.abouts:hover{ color: red; }
