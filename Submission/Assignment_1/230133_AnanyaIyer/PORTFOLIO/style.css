@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #090710ec;
+    font-family: 'serif';
+    box-sizing: border-box;
+}
+
+#navbar{
+    margin: 0 auto;
+    height: 15vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    }
+
+#logo-container{
+    display: flex;
+    gap: 0;
+}
+#nav-items{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+#nav-items li{
+    cursor: pointer;
+}
+#line{
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#first{
+    cursor:pointer;
+    margin-left:10px;
+    margin-right: 10px;
+    background-color: #f5f1f1b0;
+    height: 60vh;
+    width: 50vb;
+}
+#first img{
+    margin-left: 2vb;   
+    margin-right: 2vb;
+    width: 46vb;
+    margin-top: 2vh;
+    transition: ease-in-out;
+}
+#first img:hover{
+    transform: scale(1.2);
+}
+#first h3{
+    color: #ffffff;
+    text-align: center;
+    font-size: x-large;
+}
+#content{
+    margin-left: 2vb;   
+    margin-right: 2vb;
+    margin-bottom: 2vh;
+    display: flex;
+    color:#ffffff;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+}
+#left1{
+    display:inline;
+    background-color: #545355;
+    padding: 10px;
+}
+#left2{
+    display:inline;
+    background-color: #535254;
+    padding: 10px;
+}
+#left3{
+    display:inline;
+    background-color: #535254;
+    padding: 10px;
+}
+#right{
+    color: #ffffff;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 5vh;
+}
+#title{
+    width: 90%;
+    color:#ffffff;
+    margin-left: 65px ;
+}
+#view{
+    display: flex;
+    cursor:pointer;
+    margin-left:10px;
+    margin-right: 10px;
+    background-color: #f5f1f1b0;
+    height: 30vh;
+    width: 100%;
+}
+#item img{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+    height: 26vh;
+    
+}
+#props{
+    list-style: none;
+margin-top: 5vh;
+font-size: medium;
+color: #000000;
+}
+#check{
+    display: inline-block;
+    margin-left: 20vb;
+    margin-top: 8vh;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    height:80px;
+    text-decoration: none;
+}
+#anchor{
+    text-decoration: none;
+    color:#ffffff
+}
+#anchor:hover{
+    color: rgb(244, 69, 69);
+}
