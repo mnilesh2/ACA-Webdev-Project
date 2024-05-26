@@ -1,0 +1,328 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(26, 23, 23);
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/*           CSS for shopping-bag            */
+
+#cart{
+    display: flex;
+}
+
+.navbar a span:hover{
+      color: rgb(139, 9, 104);
+}
+ /* .navbar .shopping-tag:active{
+    color: rgb(139, 9, 104);
+}  */
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 4%;
+    height: 100%;
+    padding: 5px 5px;
+    background-color: black;
+   
+}
+.navbar{
+    position: fixed;
+    overflow: hidden;
+}
+header span {
+    color: white;
+    padding: 5px;
+    height: 30px;
+    background-color: black;
+   
+}
+header a{
+    background-color: black;
+}
+header div{
+    padding-top: 320px;
+    background-color: black;
+    position: static;
+}
+.navbar div a:hover{
+   color: rgb(139, 9, 104);
+}
+.box{
+    border: 1px solid white;
+    height: 180px;
+    width: 800px;
+    margin: 20px;
+    display: flex;
+    background-color: rgb(47, 44, 44);
+    border: none;
+    border-radius: 6px;
+}
+
+.box img{
+    height: 160px;
+    width: 250px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: rgb(47, 44, 44);
+}
+.container{
+    margin: 10px 140px;
+   
+}
+.no-of-boxes{
+    color: white;
+    margin-left: 150px;
+    padding-top: 20px;
+    background-color: rgb(26, 23, 23);
+   
+}
+.details{
+    margin: 10px 10px;
+    width: 500px;
+    background-color: rgb(47, 44, 44);
+
+}
+.details h3,p,button{
+    padding: 8px 8px;
+    background-color: rgb(47, 44, 44);
+}
+
+.details h3{
+    color: white;
+    
+}
+
+.details p{
+    color: rgb(182, 159, 159);
+    text-align: left;
+}
+.details button{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+
+}
+.details .price{
+    float: right
+}
+
+/*                  CSS for home                  */
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.left-content{
+    width: 840px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    flex-wrap: wrap;
+}
+.left-content div{
+      height: 300px;
+      width: 250px;
+      border-radius: 7px;
+      margin: 10px;
+      background-color: rgb(47, 44, 44);
+}
+.left-content div img{
+    height:140px;
+    width: 250px;
+    border-radius: 7px 7px 0 0;
+}
+
+.right-content{
+    width: 460px;
+    height: 550px;
+    background-color: rgb(47, 44, 44);
+    margin-top: 10px;
+    border-radius: 8px;
+   
+}
+
+.right-content div{
+    padding: 20px;
+    background-color: rgb(47, 44, 44);
+    border-radius: 7px;
+}
+
+.right-content div img{
+    height: 340px;
+    width: 420px;
+    border-radius: 7px;
+}
+.left-content div h3, p{
+    text-align: center;
+    color: white;
+    background-color: rgb(47, 44, 44);
+
+}
+.left-content div .price{
+    float: right;
+    width: 80px;
+    color: white;
+    background-color: rgb(154, 66, 80);
+    border-radius: 8px;
+     margin: 10px 20px 6px 20px ;
+     padding: 5px;
+
+}
+.left-content div .brand-name{
+    width: 100px;
+    float: left;
+    padding: 5px;
+    margin: 10px 10px 6px 0px ;
+}
+.left-content div span{
+  background-color: white;
+  color: black;
+}
+     
+
+.left-content div a{         /*  for cart icon */
+    margin: 4px 100px 8px 100px;
+    width: 22px;
+    height: 22px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-decoration: none;
+}
+
+.right-content .all-info{
+    display: flex;  
+    padding-left: 0px; 
+}
+.right-content .all-info .info{
+    padding: 0px 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.right-content .all-info .info a{
+    text-align: center;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    border-radius: 30px;
+    
+}
+.right-content .all-info .info span{
+        color: black;
+        background-color: white;
+     
+}
+.right-content .all-info .info p,a{
+    padding: 6px;
+}
+.right-content  h3 {
+    color: white;
+    background-color: rgb(47, 44, 44);
+    text-align: center;
+}
+.right-content .price{
+        margin: 0px 180px 10px 0px;
+        text-align: center;
+        background-color: rgb(47, 44, 44);
+        padding-left: 0px;
+        color: rgb(240, 15, 188);
+        float: left;
+       
+        
+}
+.right-content .properties{
+    text-align: left;
+    padding-left: 0px;
+}
+.left-arrow,.right-arrow{
+    color: black;
+    background-color: white;
+    margin-top: 300px;
+    height: 4px;
+    width: 4px;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   
+}
+
+
+/*         adding responsiveness          */
+
+
+@media only screen and (max-width:1380px){
+     
+       .right-arrow{
+        margin-right:80px;
+       }
+     .left-content{
+        margin-left: 120px;
+     }
+}
+@media only screen and (min-width: 1000px) and (max-width:1100px){
+    .left-content{
+        margin-left: 160px;
+     }
+     .right-arrow{
+        margin-right:150px;
+       }
+}
+@media only screen and (max-width:110px){
+    .box{
+        margin: 10px;
+    }
+}
+
+/* responsiveness for login and account button in bottom left */
+
+@media only screen and (min-height: 650px) and (max-height:735px){
+    header div{
+        padding-top: 300px;
+    }
+}
+@media only screen and (min-height: 740px) and (max-height:849px){
+    header div{
+        padding-top: 500px;
+    }
+}
+
+@media only screen and (min-height: 850px) and (max-height:970px){
+    header div{
+        padding-top: 600px;
+    }
+}
+@media only screen and (min-height: 960px) and (max-height:1060px){
+    header div{
+        padding-top: 660px;
+    }
+}
+@media only screen and (min-height: 1060px) and (max-height:1160px){
+    header div{
+        padding-top: 760px;
+    }
+}
+@media only screen and (min-height: 1160px) and (max-height:1260px){
+    header div{
+        padding-top: 860px;
+    }
+}
+@media only screen and (min-height: 1260px) and (max-height:1368px){
+    header div{
+        padding-top: 960px;
+    }
+}
