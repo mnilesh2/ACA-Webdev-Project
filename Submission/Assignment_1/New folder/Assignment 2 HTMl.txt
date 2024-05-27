@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phones</title>
+    <link rel="stylesheet" href="Anudeep2.css">
+</head>
+
+
+<body>
+    <div class="container1"><!--CONTAINER1 is for the nav LOGOS-->
+        <div class="logo1"><!--Because of different sizes of photos adusted everything seperatly-->
+            <img src="home.jpg" width="40px">
+        </div>
+        <div class="logo2">
+            <img src="wishlist.jpg" width="40px">
+        </div>
+        <div class="logo3">
+            <img src="cart.jpg" width="40px">
+        </div>
+        <div class="logo4">
+            <img src="profile.jpg" width="40px">
+        </div>
+        <div class="logo5">
+            <img src="three dots icon.jpg" width="40px">
+        </div>
+        
+    </div><!--This is for navigations for like home,cart etc..-->
+
+
+    <div class="main-container">
+
+        <div class="text1">All Products(12)</div>
+        <div class="sub-container">
+            <div class="image">
+                <img src="iphone 15.jpg" width="240px">
+            </div>
+            <div class="product">
+                IPhone 15 Pro
+            </div>
+            <div class="description">
+                created May 2, 2024<br><br>Best Apple Product..
+            </div>
+            <div class="update">Update</div>
+            <div class="price">&dollar;234</div>
+        </div>
+        <div class="sub-container">
+            <div class="image">
+                <img src="samsung s23 ultra.jpg" width="240px">
+            </div>
+            <div class="product">
+                Samsung S23 Ultra
+            </div>
+            <div class="description2">
+                created May 2, 2024<br><br>Best Samsung Product in Phones..
+            </div>
+            <div class="update2">Update</div>
+            <div class="price2">&dollar;234</div>
+        </div>
+        <div class="sub-container">
+            <div class="image1">
+                <img src="Asus rog phone.jpg" width="240px">
+            </div>
+            <div class="product">
+                Asus Rog Phone
+            </div>
+            <div class="description3">
+                created May 2, 2024<br><br>Best Asus Product for Gaming..
+            </div>
+            <div class="update3">Update</div>
+            <div class="price3">&dollar;234</div>
+        </div>
+
+    </div>
+
+</body>
+</html>

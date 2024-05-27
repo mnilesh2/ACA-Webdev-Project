@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container1{
+    position: fixed;
+    flex-direction: column;
+    width: 50px;
+    height: 1000px;
+    background-color: black;
+    color: white;
+}
+.logo1{
+    position: relative;
+    top: 50px;
+}
+.logo2{
+    position: relative;
+    top: 40px;
+}
+.logo3{
+    position: relative;
+    top: 13px;
+}
+.logo4{
+    position: relative;
+    bottom: 8px;
+}
+.logo5{
+    position: fixed;
+    right: 10px;
+    top: 0px;
+}
+.main-container{
+    height: 692px;
+    width: 100%;
+    background-image: linear-gradient(to bottom,black,darkblue);
+}
+.text1{
+    position: relative;
+    top: 40px;
+    width: 150px;
+    left: 120px;
+    font-size: large;
+    color: white;
+}
+.sub-container{
+    height: 185px;
+    width: 850px;
+    position: relative;
+    left: 120px;
+    top: 40px;
+    margin-top: 20px;
+    display: flex;
+    border: 1px solid white;
+}
+.image{
+    margin-top: 13px;
+    margin-left: 13px;
+}
+.image1{
+    margin-top: 25px;
+    margin-left: 13px;
+}
+.product{
+    height: 40px;
+    color: white;
+    position: relative;
+    top: 35px;
+    left: 15px;
+}
+.description{
+    position: relative;
+    top: 65px;
+    right: 83px;
+    font-size: small;
+    color: grey;
+}
+.update{
+    height: 30px;
+    width: 90px;
+    padding: 4px;
+    padding-left: 15px;
+    position: relative;
+    top: 130px;
+    right: 200px;
+    color: white;
+    background-image: linear-gradient(to bottom,darkblue,white);
+}
+.price{
+    height: 30px;
+    width: 50px;
+    position: relative;
+    top: 130px;
+    left: 220px;
+    font-size: larger;
+    color: white;
+}
+.description2{
+    position: relative;
+    top: 65px;
+    right: 113px;
+    font-size: small;
+    color: grey;
+}
+.description3{
+    position: relative;
+    top: 65px;
+    right: 93px;
+    font-size: small;
+    color: grey;
+}
+.update2{
+    height: 30px;
+    width: 90px;
+    padding: 4px;
+    padding-left: 15px;
+    position: relative;
+    top: 130px;
+    right: 310px;
+    color: white;
+    background-image: linear-gradient(to bottom,darkblue,white);
+}
+.update3{
+    height: 30px;
+    width: 90px;
+    padding: 4px;
+    padding-left: 15px;
+    position: relative;
+    top: 130px;
+    right: 270px;
+    color: white;
+    background-image: linear-gradient(to bottom,darkblue,white);
+}
+.price2{
+    height: 30px;
+    width: 50px;
+    position: relative;
+    top: 130px;
+    left: 110px;
+    font-size: larger;
+    color: white;
+}
+.price3{
+    height: 30px;
+    width: 50px;
+    position: relative;
+    top: 130px;
+    left: 150px;
+    font-size: larger;
+    color: white;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale">
+    <title>Practise page</title>
+    <link rel="stylesheet" href="Anudeep.css">
+</head>
+
+
+
+<body>
+    
+<div class="container1"><!--CONTAINER1 is for the nav LOGOS-->
+    <div class="logo1"><!--Because of different sizes of photos adusted everything seperatly-->
+        <img src="home.jpg" width="40px">
+    </div>
+    <div class="logo2">
+        <img src="wishlist.jpg" width="40px">
+    </div>
+    <div class="logo3">
+        <img src="cart.jpg" width="40px">
+    </div>
+    <div class="logo4">
+        <img src="profile.jpg" width="40px">
+    </div>
+    
+
+</div><!--This is fixed container for navigations.....CONTAINER1 is for NAVIGATIONS-->
+
+<div class="container2"><!--CONTAINER2 is for whole container-->
+    <div class="container3"><!--CONTAINER3 is for the scrolling part for filters-->
+        <div class="text1">Filter by Categories </div><!--text1 is for FILTERS BY CATEGORIES-->
+
+        <div class="sub-containers"><!--SUB-CONTAINERS for filter names-->
+            <div class="box"></div><!--BOX class is for making the white checkbox type-->
+            <div class="product"><a href="Anudeep2.html" target="_blank">Phones</a></div><!--Product class is for the name of the product-->
+        </div>
+        <div class="sub-containers">
+            <div class="box"></div>
+            <div class="product">Clothes</div>
+        </div>
+        <div class="sub-containers">
+            <div class="box"></div>
+            <div class="product">Laptops</div>
+        </div>
+        <div class="sub-containers">
+            <div class="box"></div>
+            <div class="product">Earpods</div>
+        </div>
+        <div class="sub-containers">
+            <div class="box"></div>
+            <div class="product">Drones</div>
+        </div>
+        <div class="sub-containers">
+            <div class="box"></div>
+            <div class="product">Shoes</div>
+        </div>
+        <div class="sub-containers">
+            <div class="box"></div>
+            <div class="product">tablets</div>
+        </div>
+        <div class="sub-containers">
+            <div class="box"></div>
+            <div class="product">Cameras</div>
+        </div>
+        <div class="sub-containers">
+            <div class="box"></div>
+            <div class="product">TV appliances</div>
+        </div>
+
+        <div class="text1">Filters by Brands</div><!--same TEXT1 used for FILTERS BY BRANDS-->
+
+        <div class="sub-containers"><!--SUB-CONTAINERS for filter names-->
+            <div class="box"></div><!--BOX class is for making the white checkbox type-->
+            <div class="product">Apple</div><!--Product class is for the name of the product-->
+        </div>
+        <div class="sub-containers">
+            <div class="box"></div>
+            <div class="product">Asus</div>
+        </div>
+        <div class="sub-containers">
+            <div class="box"></div>
+            <div class="product">Samsung</div>
+        </div>
+        <div class="sub-containers">
+            <div class="box"></div>
+            <div class="product">Hp</div>
+        </div>
+        <div class="sub-containers">
+            <div class="box"></div>
+            <div class="product">Dell</div>
+        </div>
+    </div>
+    
+    <div class="container4"><!--CONTAINER4 is for the MAIN VISIBLE part-->
+
+        <div class="text2">13 Products</div><!--TEXT for no of products-->
+
+        <div class="big-box extra-box box-edit">
+            <img src="rog laptop.jpeg" height="65%" width="100%">
+            <div class="product-name">Asus zephyrus G14<div class="cost">&dollar;1499.00</div></div>
+            <div class="description"><p>nice product..</p></div>
+            <div class="read-more">
+                Read More&#x2192
+                <div class="cart-icon"><img src="cart icon.jpg" width="30px"></div>
+            </div>
+        </div>
+        <div class="big-box extra-box box-edit">
+            <img src="rog phone.jpeg" height="65%" width="100%">
+            <div class="product-name">Asus Rog 7<div  class="cost">&dollar;599.00</div></div>
+            <div class="description"><p>Best phone..</p></div>
+            <div class="read-more">
+                Read More&#x2192
+                <div class="cart-icon"><img src="cart icon.jpg" width="30px">
+                </div>
+            </div>
+        </div>
+        <div class="big-box extra-box box-edit">
+            <img src="zen.jpeg" height="65%" width="100%">
+            <div class="product-name">Asus Zenbook<div class="cost">&dollar;1499.00</div></div>
+            <div class="description"><p>Best value for money..</p></div>
+            <div class="read-more">
+                Read More&#x2192
+                <div class="cart-icon"><img src="cart icon.jpg" width="30px">
+                </div>
+            </div>
+        </div>
+        <div class="big-box extra-box2 box-edit">
+            <img src="macbook.jpeg" height="65%" width="100%">
+            <div class="product-name">Macbook Air M1<div class="cost">&dollar;899.00</div></div>
+            <div class="description"><p>Good brand..</p></div>
+            <div class="read-more">
+                Read More&#x2192
+                <div class="cart-icon"><img src="cart icon.jpg" width="30px">
+                </div>
+            </div>
+        </div>
+        <div class="big-box extra-box2 box-edit">
+            <img src="iphone.jpeg" height="65%" width="100%">
+            <div class="product-name">Iphone 13<div class="cost">&dollar;456.00</div></div>
+            <div class="description"><p>nice product..</p></div>
+            <div class="read-more">
+                Read More&#x2192
+                <div class="cart-icon"><img src="cart icon.jpg" width="30px">
+                </div>
+            </div>
+        </div>
+        <div class="big-box extra-box2 box-edit">
+            <img src="watch.jpeg" height="65%" width="100%">
+            <div class="product-name">Apple Watch<div class="cost">&dollar;259.00</div></div>
+            <div class="description"><p>Best product..</p></div>
+            <div class="read-more">
+                Read More&#x2192
+                <div class="cart-icon"><img src="cart icon.jpg" width="30px">
+                </div>
+            </div>
+        </div>
+
+    </div>    
+
+
+</div>
+
+
+
+
+</body>
+</html>
