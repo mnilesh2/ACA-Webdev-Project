@@ -1,0 +1,71 @@
+body{ 
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+}
+
+.product{
+    margin-left: 10%;
+    background-color: #000000;
+    padding-bottom: 5%;
+    width: 90%;
+    margin-right: 0%;
+    
+}
+
+h3{
+    margin-left: 5%;
+}
+.heading{
+    text-align: center;
+}
+
+.images{
+    margin-left: 3%;
+    margin-right:50%;
+    height: 25%;
+    width:130%;
+    display: flex;
+    background-color: #383939;
+    border-radius: 10px;
+}
+
+img{
+    height: 150px;
+    width: 250px;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left: 2%;
+    padding-right: 2% ;
+    border-radius: 15px;
+}
+h4{
+    text-align-last: right;
+}
+.button{
+    color: white;
+    background-color: deeppink;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+.tab{
+    display: inline-block;
+    width: 270px;
+}
+.icon-bar {
+    width: 2.5%;
+    background-color:rgb(235, 228, 228);
+    display:grid;
+    text-align: center;
+    padding:16px;
+    font-size: 30px;
+    position: relative;
+    flex-direction: column;
+}
+.icon{
+    margin-left: 30%;
+    display: block;
+    font-size: 20px;
+ }  
+
+ 
