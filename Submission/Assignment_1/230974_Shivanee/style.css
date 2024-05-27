@@ -1,0 +1,121 @@
+*{
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color:rgb(13, 12, 12);
+     border: border-box;
+     color:aliceblue
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.nav-items {
+     height: 60px;
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 0px;
+     margin-left: 10px;
+     cursor: pointer;
+     padding: 5px;
+     list-style-type: none;
+     margin: 10px;
+     gap: 20px;
+}
+ .restro {
+     align-items: center;
+     display: flex;
+     padding-left: 0%;
+     color: #f3e2ad;
+ } 
+ .logo {
+     display:flex;
+     margin-left: 15px;
+     width: 90px;
+ }
+ .border {
+     color: 1px solid transparent;
+ }
+ .border:hover{
+     border: 1px solid white;
+ }
+ .border a {
+    text-decoration: none;
+ }
+.nav-search {
+     margin-left: 25px;
+     display: flex;
+}
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3e2ad;
+}
+.shop-section2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3e2ad;
+    padding-top: 10px;
+}
+.box {
+    height: 300px;
+    width: 28%;
+    background-color: white;
+    padding: 17px 4px 8px;
+    margin-top: 10px;
+    transition: 0.8s;
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.box-img {
+    height: 210px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content a {
+    color: rgb(202, 75, 75);
+    text-decoration: none;
+}
+.box-content h3{
+    margin-left: 10px;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.login {
+    align-items:center;
+    justify-content: center;
+    column-gap: 20px;
+    background-color: rgb(18, 19, 14);
+    padding-top: 4rem;
+    display:flex;
+    flex-direction: column;
+    display: flex;
+    margin-top: 100px;
+    padding: 3rem;
+    cursor: pointer;
+}
+.login-form {
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 3rem;
+}
+#btn {
+    background-color: rgb(152, 51, 31);
+}
+.checked{
+    color: orange;
+}
