@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANGE COLOR ON MOUSE HOVER</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .colorBox{
+            width: 30vw;
+            height: 30vh;
+            text-align: center;
+            align-self: center;
+            padding-top: 100px;
+           
+            padding:center;
+            margin:200px auto;
+            
+        }
+    </style>
+</head>
+<body><div class="container">
+    <div class="colorBox">Hello Please help, me I am under the water</div>
+</div>
+</body>
+<script>
+    function getrandomColor(){
+        let r = Math.floor(Math.random() * 256);
+        let g = Math.floor(Math.random() * 256);
+        let b = Math.floor(Math.random() * 256);
+        return `rgb(${r},${g},${b})`;
+    }
+
+    var Nema = document.querySelector(".colorBox");
+    Nema.addEventListener('mouseover', function() {
+        Nema.style.backgroundColor = getrandomColor();
+    });
+</script>
+</html>
