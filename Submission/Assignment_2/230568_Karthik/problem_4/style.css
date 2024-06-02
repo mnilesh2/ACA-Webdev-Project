@@ -1,0 +1,20 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(193, 173, 90);
+}
+
+#my-element {
+    width: 200px;
+    height: 100px;
+    background-color: #85bd30;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+    margin: 300px 600px 300px 600px;
+    color: #a9301b;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
