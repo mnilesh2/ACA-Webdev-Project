@@ -1,0 +1,19 @@
+
+.Box{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Element {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
