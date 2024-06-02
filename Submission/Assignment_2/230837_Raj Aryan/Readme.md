@@ -1,0 +1,1 @@
+In this assignemnt solution, i have added the solution of function composition, interval cancellation, counter and a task of changing background color.
