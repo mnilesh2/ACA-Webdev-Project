@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    margin-left: 25%;
+    margin-top: 10%;
+    width:600px;
+    height:300px;
+    background-color: rgb(6, 6, 43);
+    color: white;
+    text-align: center;
+}
