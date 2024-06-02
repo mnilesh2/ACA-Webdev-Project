@@ -1,0 +1,1 @@
+In this i have submitted the solution of q1 q2 q3 and in q4 i have drag and drop part
