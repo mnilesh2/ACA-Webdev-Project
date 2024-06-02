@@ -1,0 +1,73 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 0 2rem;
+    background-color: black;
+  }
+  
+  h1 {
+   
+    margin-bottom: 2rem;
+    color: #ccc;
+    margin-left: 20px;
+  }
+  img{
+ height: 150px;
+ width: 300px;
+ display:inline-flex;
+ border-radius: 8px;
+  }
+  p{
+    display: inline;
+  }
+  .productTitle{
+    color: white;
+    position: absolute;
+    margin-top:5px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  .createdOn{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 10px;
+    color: #8d8c8c;
+    font-weight: lighter;
+    font-size:medium;
+  }
+  .smallDisc{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 10px;
+    color: #8d8c8c;
+    font-weight: lighter;
+    font-size: medium;
+  }
+  .product1{
+padding: 20px;
+background-color: rgb(10, 36, 61);
+margin: 20px;
+border-radius: 5px;
+width: 50%;
+  }
+  .update{
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 10px;
+    background-color: rgb(244, 74, 130);
+    border: 0px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+.price{
+    color: white;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 28%;
+    font-weight: bold;
+    font-size: larger;
+}

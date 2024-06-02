@@ -1,0 +1,89 @@
+ .container { 
+    display: flex; 
+    flex-direction: row; 
+    background-color: rgb(44, 43, 43);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+  } 
+  h1{
+    color:azure;
+  }
+  h2{
+    color:bisque;
+  }
+  h3{
+    color:bisque;
+    opacity: .5;
+  }
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: rgb(44, 43, 43);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color:azure;
+  }
+  .content {
+    background-color: black;
+    margin-left: 100px;
+    padding: 1px 16px;
+    height: 100%;
+  }
+  img {
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+  }
+  .image{
+    background-color: rgb(44, 43, 43);
+    margin-left: 5px;
+    margin-top:5px;
+    border-radius: 10px;
+    width: 15%;
+    float:left;
+  }
+  .rem{
+    margin-top: 5px;
+    margin-left: 100px;
+    background-color:  rgb(44, 43, 43);
+    float: left;
+    text-align:top;
+    overflow: hidden;
+    width: 85%;
+  }
+  .inner_container{
+    display: flex;
+  }
+  button{
+    background-color: rgb(136, 79, 9);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  button:hover{
+    background-color:bisque;
+    color: white;
+  }
+  .price{
+    float:right;
+    text-align:center; 
+  }
+  .price h1{
+    color: bisque;
+  }
