@@ -1,0 +1,26 @@
+/* LIST STYLES */
+.box {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+.items{
+    color: white;
+  }
+  .box li {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #dfdfdf;
+    background: crimson;
+  }
+  
+  /* (B) DRAG-AND-DROP HINT */
+  .box li.hint {
+    border: 1px solid black;
+    background: #feffb4;
+    color: black;
+  }
+  .box li.active {
+    border: 1px solid #e82424;
+    background: #ffe7e7;
+  }
