@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANGE COLOR ON MOUSE HOVER</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .BOX{
+            margin-top: 200px;
+            border: rgb(174, 203, 7) 2px solid;
+            border-radius: 22px;
+            width: 20vw;
+            height: 20vh;
+            text-align: center;
+            padding-top: 150px;
+            
+            
+        }
+    </style>
+</head>
+<body><div class="container">
+    <div class="BOX">Uncle ji. mujhe paani pile dijiye</div>
+</div>
+</body>
+<script>
+    function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+    var Nema = document.querySelector(".BOX");
+    Nema.addEventListener('mouseover', function() {
+        Nema.style.backgroundColor = getRandomColor();
+    });
+    var Nema = document.querySelector(".BOX");
+    Nema.addEventListener('mouseout', function() {
+        Nema.style.backgroundColor = getRandomColor();
+    });
+</script>
+</html>
