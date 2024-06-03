@@ -1,0 +1,26 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+  
+
+.b {
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh; 
+    background-color: #f9f9f9 ;
+}
+
+.e {
+    /* Increase padding for larger button */
+    font-size: 2.5rem; /* Increase font size */
+    width: 400px; /* Set width */
+    height: 100px; /* Set height */
+    border-radius: 15px;
+    cursor: pointer;
+    background-color:#e74c3c;
+    color: #333333;
+}
